@@ -1,0 +1,74 @@
+.container{
+  margin-top: 5em;
+}
+
+#game {
+  display: none;
+}
+
+.box{
+  border-style: solid;
+  width: 5em;
+  height: 5em;
+  line-height: 5em;
+  float: left;
+}
+
+#box1{
+  border-top-style: none;
+  border-left-style: none;
+}
+
+#box2{
+  border-top-style: none;
+}
+
+#box3{
+   border-top-style: none; 
+   border-right-style: none;
+}
+
+#box4{
+  border-left-style: none;
+}
+
+#box6{
+  border-right-style: none;
+}
+
+#box7{
+  border-left-style: none;
+  border-bottom-style: none;
+}
+
+#box8{
+  border-bottom-style: none;
+}
+
+#box9{
+  border-right-style: none;
+  border-bottom-style: none;
+}
+
+.border{
+  border-style: solid;
+}
+
+.align-center{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pickSelect{
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+.pickSelect:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+#turn {
+  margin-bottom: 2em;
+}
